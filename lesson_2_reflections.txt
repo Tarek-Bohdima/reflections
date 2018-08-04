@@ -19,6 +19,12 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	- Making master branch for stable code
+	- experimenting or adding feature on another branch
+	- when collabrating with others i work in a separate branch 
+	branches help to keep parallel work and features for the project
+	to ensure safety for working code not to break 
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in

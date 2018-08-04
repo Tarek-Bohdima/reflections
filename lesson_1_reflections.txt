@@ -1,0 +1,80 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+
+-Using the command prompt in windows with the command FC game_old.js game_new.js .
+
+-And in bash (linux or mac) diff -u game_old.js game_new.js after being in the same directory where the downloaded files to compare are . (-u stands for unified diff format; which make it easy to view)
+
+-i think it helped finding the typo faster and in a less eyes straining way. 
+
+-i liked it more in bash using the - + signs that shows new + and old 
+
+- 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+
+-i would learn faster even from my mistakes
+
+-i could spot my mistakes easier and faster.
+
+-i would go back to compare my work easier and refine it .
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+
+The pros: 
+
+-The versions will be executable without half command lines.
+
+-won't have too many versions.
+
+-i can access the changes or commits offline.
+
+-i can see who made what and when.
+
+-i can run git diff between commits and compare between them so easy.
+
+
+The cons:
+
+-humans forget which lead to hard to fix problem or big commit.
+
+-i have to choose when to commit logically or otherwise.
+
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+
+-Because in Git the user decides what to commit and when to commit it.
+
+-in others like Google Docs its up to Google to make the save.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+-i can compare between any two commits through all my commit history for any file or project.
+-study my progress or mistakes.
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+
+-I know i am capable of seeing the whole log of commits (git log --stat)
+-I can use checkout to test each commit version by its id (git chechout commitID) 
+-I can Diff between commits to know where the problem is in the code added or removed  (git diff commitidold commitidnew)
+-I can use git reflog to check all checkouts
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+
+-I like to use it from within a repository and see how the prompt show more useful details 
+-I want to see when i make a change i haven't commit on my prompt as a star
+-I like that i can see what folder i am in always

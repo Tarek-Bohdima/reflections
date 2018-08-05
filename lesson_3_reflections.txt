@@ -38,7 +38,17 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	- i would use google drive or google docs to collabrate with others 
 	- it would be hard to do that realtime. many bugs can be introduced
 	- not sure if its suitable for code either as github
-	- it will be harder..nothing easy about it	
+	- it will be harder..nothing easy about it
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+	- working in separate branch is useful when collabrating ,and if the project is big
+	and i want to keep the master code working ,so i experiment or add feature on other
+	branches before i merge them to master and delete them.
+	- so its useful for collabration to avoid conflicts on master
+	- to organize the workflow in coding and keep master working
+
 
 
 

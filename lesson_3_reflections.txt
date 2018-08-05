@@ -32,7 +32,13 @@ What is the benefit of having a copy of the last known state of the remote store
 	git log and see whats new on the original repository from other's collabrators
 	- i can merge (when i am still offline even) the origin/master and master branches
 	- i can push the merged branch back to github (origin) after i get internet access
-	
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	- i would use google drive or google docs to collabrate with others 
+	- it would be hard to do that realtime. many bugs can be introduced
+	- not sure if its suitable for code either as github
+	- it will be harder..nothing easy about it	
 
 
 

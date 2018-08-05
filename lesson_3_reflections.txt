@@ -25,5 +25,14 @@ use one instead of another?
 	- i fork a repository on Github when i want to test it or add to it but i don't have 
 	permission to collabrate on that repository
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	- this can be done by git fetch origin	
+	- it will be useful when i go offline say like on a plane and want to use git diff or
+	git log and see whats new on the original repository from other's collabrators
+	- i can merge (when i am still offline even) the origin/master and master branches
+	- i can push the merged branch back to github (origin) after i get internet access
+	
+
 
 
